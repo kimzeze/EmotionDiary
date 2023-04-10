@@ -1,4 +1,9 @@
+import { useParams } from "react-router-dom";
+
 const Diary = () => {
+  const { id } = useParams(); // 커스텀 hooks
+  console.log(id);
+
   return (
     <div>
       <h1>Diary</h1>
